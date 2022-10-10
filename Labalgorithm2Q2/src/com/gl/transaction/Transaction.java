@@ -10,15 +10,17 @@ public class Transaction {
 				result[i] = amount/array[i];
 				amount =amount % array[i];
 			}
-		}if(amount>0) {
+		}if(amount>0)
+		{
 			System.out.println("Amount cannot be made with Denomination ");
-		}else {
+		}
+		else {
 			System.out.println(" Your payment approch in order to give min number of notes will be");
-		 for (int i=0;i<result.length;i++) {
+		        for (int i=0;i<result.length;i++) {
 			 if(result[i]!=0) {
 				System.out.println(array[i]+":"+result[i]); 
 			 }
-		 }
+		         }
 		
 		}
 		
